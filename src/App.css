@@ -343,3 +343,28 @@ span {
     left: -91px;
   }
 }
+.sec-14 {
+  background-color: black;
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(22, 21, 21, 0.85),
+      rgba(22, 21, 21, 0.85)
+    ),
+    url("../src//img//map2.png");
+  /* -webkit-background-size: cover;
+  background-size: cover; */
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: left;
+}
+l {
+  display: flex;
+  flex-direction: column;
+}
+.final {
+  list-style-type: ">  ";
+}

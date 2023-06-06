@@ -18,6 +18,7 @@ import { useState } from "react";
 import call from "../img/call.png";
 import msg from "../img/msg.png";
 import { Link } from "react-scroll";
+import image_4 from "../img/image 4.png";
 const Mains = () => {
   function thankyou() {
     alert("Thankyou");
@@ -874,7 +875,43 @@ const Mains = () => {
             </button>
           </div>
         </div>
-        hbhkbhvh jgjjgj
+        <div className="row sec-14">
+          <div className="col-4  d-flex flex-column justify-content-center align-items-end">
+            <img
+              style={{ paddingRight: "3rem", width: "10rem" }}
+              src={image_4}
+              alt="logo"
+            />
+
+            <p
+              style={{ color: "whitesmoke", width: "200px", fontSize: "14px" }}
+            >
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur sunt in culpa qui officia
+              deserunt mollit anim qui officia deserunt mollit anim id est
+              laborum.
+            </p>
+          </div>
+          <div className="col-2  lc d-flex flex-column justify-content-center align-items-center">
+            <p style={{ color: " #FF7000", fontFamily: "Roboto" }}>
+              WHO WE ARE
+            </p>
+
+            <ul className="final">
+              <li style={{ color: "whitesmoke", fontSize: "14px" }}>
+                Homepage
+              </li>
+              <li style={{ color: "whitesmoke", fontSize: "14px" }}>About</li>
+              <li style={{ color: "whitesmoke", fontSize: "14px" }}>
+                Schedule
+              </li>
+              <li style={{ color: "whitesmoke", fontSize: "14px" }}>Gallery</li>
+              <li style={{ color: "whitesmoke", fontSize: "14px" }}>Contact</li>
+            </ul>
+          </div>
+          <div className="col-3"></div>
+          <div className="col-3"></div>
+        </div>
       </div>
     </>
   );
